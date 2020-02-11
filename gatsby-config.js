@@ -28,7 +28,7 @@ module.exports = {
         background_color: `#0E2339`,
         theme_color: `#0E2339`,
         display: `minimal-ui`,
-        icon: `https://thegyre.io/favicon.ico`,
+        icon: `src/images/mark.svg`,
       },
     },
     {
