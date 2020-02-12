@@ -1,10 +1,10 @@
 import '../prism.less';
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
-import DocsetSwitcher from './docset-switcher';
-import Header from './header';
+import DocsetSwitcher from 'gatsby-theme-apollo-docs/src/components/docset-switcher';
+import Header from 'gatsby-theme-apollo-docs/src/components/header';
 import PropTypes from 'prop-types';
 import React, {createContext, useMemo, useRef, useState} from 'react';
-import Search from './search';
+import Search from 'gatsby-theme-apollo-docs/src/components/search';
 import styled from '@emotion/styled';
 import useLocalStorage from 'react-use/lib/useLocalStorage';
 import {Button} from '@apollo/space-kit/Button';
@@ -21,10 +21,10 @@ import {
 import {Helmet} from 'react-helmet';
 import {IconLayoutModule} from '@apollo/space-kit/icons/IconLayoutModule';
 import {Link, graphql, navigate, useStaticQuery} from 'gatsby';
-import {MobileLogo} from './mobile-logo';
-import {Select} from './select';
-import {SelectedLanguageContext} from './multi-code-block';
-import {getSpectrumUrl, getVersionBasePath} from '../utils';
+import { MobileLogo } from 'gatsby-theme-apollo-docs/src/components/mobile-logo';
+import { Select } from 'gatsby-theme-apollo-docs/src/components/select';
+import { SelectedLanguageContext } from 'gatsby-theme-apollo-docs/src/components/multi-code-block';
+import {getSpectrumUrl, getVersionBasePath} from 'gatsby-theme-apollo-docs/src/utils';
 import {size} from 'polished';
 
 const Main = styled.main({
