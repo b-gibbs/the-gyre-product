@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Data Science`,
-    siteName: 'Data ∩ Product',
-    subtitle: 'Data Science',
+    title: 'Data ∩ Product',
+    siteName: 'Data Science',
     description: `The intersection of data science and product management.`,
     author: `Bradley Gibbs`,
     twitterHandle: '@thegyre',
@@ -34,7 +33,6 @@ module.exports = {
     {
       resolve: 'gatsby-theme-apollo-docs',
       options: {
-        siteName: 'Sitename',
         subtitle: 'Data Science',
         baseUrl: 'https://thegyre.io',
         root: __dirname,
