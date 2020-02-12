@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'Data ∩ Product',
-    siteName: 'Data Science',
+    siteName: 'Product',
     description: `The intersection of data science and product management.`,
     author: `Bradley Gibbs`,
     twitterHandle: '@thegyre',
   },
-  pathPrefix: '/data',
+  pathPrefix: '/product',
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: 'gatsby-theme-apollo-docs',
       options: {
-        subtitle: 'Data Science',
+        subtitle: 'Product Management',
         baseUrl: 'https://thegyre.io',
         root: __dirname,
         description: 'The intersection of data science and product management',
@@ -50,8 +50,8 @@ module.exports = {
           'Home': {
             url: 'https://www.thegyre.io',
           },
-          'Product Management': {
-            url: 'https://www.thegyre.io/product',
+          'Data Science': {
+            url: 'https://www.thegyre.io/data',
           },
           'Blog': {
             url: 'https://www.thegyre.io/blog',
@@ -68,10 +68,10 @@ module.exports = {
             'index',
             'about',
           ],
-          Data: [
-            'data/index',
-            'data/lifecycle',
-            'data/machine-learning',
+          Product: [
+            'product/index',
+            'product/lifecycle',
+            'product/problem-backlog',
           ],
         },
       },
