@@ -1,4 +1,4 @@
-import '../prism.less';
+import 'gatsby-theme-apollo-docs/src/prism.less';
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 import DocsetSwitcher from 'gatsby-theme-apollo-docs/src/components/docset-switcher';
 import Header from 'gatsby-theme-apollo-docs/src/components/header';
