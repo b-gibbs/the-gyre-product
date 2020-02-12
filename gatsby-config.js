@@ -3,7 +3,7 @@ module.exports = {
     title: `Data Science`,
     siteName: 'Data ∩ Product',
     subtitle: 'Data Science',
-    description: `The intersection of data and product.`,
+    description: `The intersection of data science and product management.`,
     author: `Bradley Gibbs`,
     twitterHandle: '@thegyre',
   },
