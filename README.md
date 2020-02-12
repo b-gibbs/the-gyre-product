@@ -1,1 +1,1 @@
-Data science documentation at https://thegyre.io/data
+Product management documentation at https://thegyre.io/product
