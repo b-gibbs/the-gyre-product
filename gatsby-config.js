@@ -82,10 +82,10 @@ module.exports = {
             'index',
           ],
           Lifecycle: [
-            'index',
+            'lifecycle/index',
           ],
           Tools: [
-            'index',
+            'tools/index',
           ],
         },
       },

@@ -2,7 +2,7 @@
 category: Product
 section: 
 title: Introduction
-description: Introduction to the Data Science documents
+description: Introduction to the Product Management documents
 slug: /product/index.md
 ---
 
