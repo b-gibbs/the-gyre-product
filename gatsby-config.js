@@ -54,7 +54,7 @@ module.exports = {
         githubRepo: 'https://github.com/b-gibbs/the-gyre',
         defaultVersion: '1',
         trackingId: '',
-        twitterHandle: '@thegyre',
+        twitterHandle: 'in_the_gyre',
         spectrumHandle: 'data-product',
         algoliaApiKey: '',
         algoliaIndexName: '',
