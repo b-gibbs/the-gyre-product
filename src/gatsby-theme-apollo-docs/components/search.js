@@ -198,7 +198,7 @@ export default () => {
 
   return (
     <Fragment>
-      <InstantSearch searchClient={client} indexName="the-gyre-data">
+      <InstantSearch searchClient={client} indexName="the-gyre-product">
         <Overlay visible={active} />
           <Container>
           <CustomSearchBox
