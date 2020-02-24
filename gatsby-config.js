@@ -87,6 +87,9 @@ module.exports = {
           Tools: [
             'tools/index',
           ],
+          Resources: [
+            '[Recommended Reading](https://thegyre.io/resources/category/product)',
+          ],
         },
       },
     },
