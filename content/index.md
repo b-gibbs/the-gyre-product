@@ -1,9 +1,11 @@
 ---
-category: Product
+category: 
+  - product
 section: 
 title: Introduction
 description: Introduction to the Product Management documents
-slug: /product/index.md
+slug: /
+path: product/
 ---
 
 . . . text
